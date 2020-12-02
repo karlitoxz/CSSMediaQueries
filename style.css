@@ -1,0 +1,89 @@
+
+/*Resolucion para dispositivos moviles muy pequeños*/
+@media (max-width: 575px){
+	
+	#container1{
+	background: lime;
+	width: 5vw;
+	height: 10vh;
+	}
+
+	#container2{
+		background: forestgreen;
+		width: 5vw;
+		height: 20vh;
+	}
+
+	#container3{
+		background: darkgreen;
+		width: 5vw;
+		height: 10vh;
+	}
+}
+/*Resolucion para dispositivos moviles pequeños*/
+@media (min-width: 576px) and (max-width: 767px){
+	
+	#container1{
+	background: gold;
+	width: 5vw;
+	height: 10vh;
+	}
+
+	#container2{
+		background: orange;
+		width: 5vw;
+		height: 20vh;
+	}
+
+	#container3{
+		background: darkorange;
+		width: 5vw;
+		height: 10vh;
+	}
+}
+
+/*Resolucion para tables*/
+@media (min-width: 576px) and (max-width: 991px){
+
+	#container1{
+	background: coral;
+	width: 5vw;
+	height: 10vh;
+	}
+
+	#container2{
+		background: tomato;
+		width: 5vw;
+		height: 20vh;
+	}
+
+	#container3{
+		background: orangered;
+		width: 5vw;
+		height: 10vh;
+	}
+
+}
+
+/*Resolucion para tables*/
+@media (min-width: 992px) {
+
+	#container1{
+	background: darkred;
+	width: 5vw;
+	height: 10vh;
+	}
+
+	#container2{
+		background: red;
+		width: 5vw;
+		height: 20vh;
+	}
+
+	#container3{
+		background: firebrick;
+		width: 5vw;
+		height: 10vh;
+	}
+	
+}
